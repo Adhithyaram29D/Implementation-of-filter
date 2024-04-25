@@ -141,19 +141,19 @@ i) Using Averaging Filter
 
 ii) Using Weighted Averaging Filter
 <br>
-![download](https://github.com/Adhithyaram29D/Implementation-of-filter/assets/119393540/3b0ad8ec-c1bd-4c39-b2dd-0a377feb89fa)
+<img src = "https://github.com/Adhithyaram29D/Implementation-of-filter/assets/119393540/3b0ad8ec-c1bd-4c39-b2dd-0a377feb89fa" width ="300">
 
 </br>
 
 iii) Using Gaussian Filter
 <br>
-![download](https://github.com/Adhithyaram29D/Implementation-of-filter/assets/119393540/e7cee428-3ac1-4d42-873d-60b6cae046a8)
+<img src = "https://github.com/Adhithyaram29D/Implementation-of-filter/assets/119393540/e7cee428-3ac1-4d42-873d-60b6cae046a8" width ="300">
 
 </br>
 
 iv) Using Median Filter
 <br>
-![download](https://github.com/Adhithyaram29D/Implementation-of-filter/assets/119393540/68817305-e90c-46ff-8151-0d926786baef)
+<img src = "https://github.com/Adhithyaram29D/Implementation-of-filter/assets/119393540/68817305-e90c-46ff-8151-0d926786baef" width ="300">
 
 </br>
 
@@ -162,13 +162,13 @@ iv) Using Median Filter
 
 i) Using Laplacian Kernal
 <br>
-![download](https://github.com/Adhithyaram29D/Implementation-of-filter/assets/119393540/fb90bed3-f8bd-4597-a240-1a92958f7252)
+<img src = "https://github.com/Adhithyaram29D/Implementation-of-filter/assets/119393540/fb90bed3-f8bd-4597-a240-1a92958f7252" width ="300">
 
 </br>
 
 ii) Using Laplacian Operator
 <br>
-![download](https://github.com/Adhithyaram29D/Implementation-of-filter/assets/119393540/d12b6b5c-4a7e-4310-9aa6-9c78bd2e665b)
+<img src = "https://github.com/Adhithyaram29D/Implementation-of-filter/assets/119393540/d12b6b5c-4a7e-4310-9aa6-9c78bd2e665b" width ="300">
 
 </br>
 
