@@ -134,7 +134,9 @@ plt.title('Laplacian Operator')
 </br>
 i) Using Averaging Filter
 <br>
+
 ![download](https://github.com/Adhithyaram29D/Implementation-of-filter/assets/119393540/fae622fd-cc94-4df0-8784-1cc99d1d5d0d)
+
 </br>
 
 ii) Using Weighted Averaging Filter
