@@ -62,7 +62,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 image1 = cv2.imread('eiffeltower.jpg')
 image2 = cv2.cvtColor(image1, cv2.COLOR_BGR2RGB)
-
 kernel2 = np.array([[1,2,1],[2,4,2],[1,2,1]])/16
 image4 = cv2.filter2D(image2, -1, kernel2)
 plt.imshow(image4)
@@ -75,7 +74,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 image1 = cv2.imread('eiffeltower.jpg')
 image2 = cv2.cvtColor(image1, cv2.COLOR_BGR2RGB)
-
 gaussian_blur = cv2.GaussianBlur(src=image2, ksize=(11,11), sigmaX=0, sigmaY=0)
 plt.imshow(gaussian_blur)
 plt.title(' Gaussian Blurring Filtered')
@@ -87,7 +85,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 image1 = cv2.imread('eiffeltower.jpg')
 image2 = cv2.cvtColor(image1, cv2.COLOR_BGR2RGB)
-
 median=cv2.medianBlur (src=image2, ksize=11)
 plt.imshow(median)
 plt.title(' Median Blurring Filtered')
@@ -100,7 +97,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 image1 = cv2.imread('eiffeltower.jpg')
 image2 = cv2.cvtColor(image1, cv2.COLOR_BGR2RGB)
-
 kernel3 = np.array([[0,1,0], [1, -4,1],[0,1,0]])
 image5 =cv2.filter2D(image2, -1, kernel3)
 plt.imshow(image5)
@@ -118,7 +114,6 @@ new_image = cv2.Laplacian (image2, cv2.CV_64F)
 plt.imshow(new_image)
 plt.title('Laplacian Operator')
 ```
-
 ## OUTPUT:
 ### 1. Smoothing Filters
 </br>
@@ -142,19 +137,15 @@ iv) Using Median Filter
 <br>
 <img src = "https://github.com/Adhithyaram29D/Implementation-of-filter/assets/119393540/68817305-e90c-46ff-8151-0d926786baef" width ="300">
 </br>
-
 ### 2. Sharpening Filters
 </br>
 i) Using Laplacian Kernal
 <br>
 <img src = "https://github.com/Adhithyaram29D/Implementation-of-filter/assets/119393540/fb90bed3-f8bd-4597-a240-1a92958f7252" width ="300">
-
 </br>
-
 ii) Using Laplacian Operator
 <br>
 <img src = "https://github.com/Adhithyaram29D/Implementation-of-filter/assets/119393540/d12b6b5c-4a7e-4310-9aa6-9c78bd2e665b" width ="300">
-
 </br>
 
 ## Result:
